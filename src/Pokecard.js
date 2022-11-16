@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Pokecard.css";
 const POKE_API = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/`;
 
-export class Pokecard extends Component {
+ class Pokecard extends Component {
   render() {
     let imgSrc = `${POKE_API}${this.props.id}.png`;
 
